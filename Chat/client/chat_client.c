@@ -69,6 +69,7 @@ namespace client{
 
 
 
+#ifdef CHAT
 //////////////////test////////////////
 
 void* Send(void* arg)
@@ -123,3 +124,4 @@ int main(int argc,char* argv[])
   return 0;
 }
 
+#endif 

@@ -1,0 +1,6 @@
+http_server:http_server.c
+	gcc $^ -o $@ -lpthread -g
+
+.PHONY:clean
+clean:
+	rm -f http_server
